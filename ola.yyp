@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "8bdeb020-0737-4d2d-8b56-104770718af3",
+            "Value": {
+                "id": "e8518fd0-248f-44f6-8cb5-8a3c5b560795",
+                "resourcePath": "objects\\obj_spike_spawner\\obj_spike_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97b29978-6cfe-4905-8c9b-241cb51321c0",
             "Value": {
                 "id": "8fc6aae4-bb1b-4bda-aeda-7f57d09d8040",
