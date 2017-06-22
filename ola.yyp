@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+        "default"
     ],
     "option_ecma": false,
     "parentProject": {
@@ -52,6 +52,14 @@
                 "id": "c0c1bf77-67fb-4ff9-91d6-bd6aabe04662",
                 "resourcePath": "views\\10085e3d-38ee-4897-8ff5-807302a096fc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "150eb07a-2779-4f73-9df6-d541fd7a1bbc",
+            "Value": {
+                "id": "d1928149-31ee-4612-9466-a9cd2b234cfd",
+                "resourcePath": "sounds\\snd_background\\snd_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -228,6 +236,14 @@
                 "id": "1846ecfe-7d7d-45c5-8828-db82332c966c",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7aa39b4-55cd-4864-920c-9b570897da44",
+            "Value": {
+                "id": "2e6ad1d8-d8f3-49d2-9935-5e799516a940",
+                "resourcePath": "sounds\\snd_crunch\\snd_crunch.yy",
+                "resourceType": "GMSound"
             }
         }
     ],
