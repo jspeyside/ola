@@ -1,12 +1,21 @@
 // Movement
-
+var movement = 0;
 if (keyboard_check(vk_right)) {
-	var test = tilemap_get_at_pixel(tilemap, x + move_speed, y);
-	show_debug_message(test);
-	x += move_speed;
-	image_angle -= rotate_speed;
+	
+	if (x + sprite_width/2 + move_speed > room_width) {
+		movement = room_width - sprite_width / 2 - x;
+	} else {
+		movement = move_speed;
+	}
 }
 if(keyboard_check(vk_left)) {
-	x -= move_speed;
-	image_angle += rotate_speed;
+	if (x - sprite_width/2 - move_speed < 0) {
+		movement = sprite_width/2 - x;
+	} else {
+		movement = -move_speed;
+	}
 }
+
+rotation = -round(1.79*movement);
+image_angle += rotation;
+x += movement;
