@@ -1,3 +1,4 @@
+/// @description Player Setup
 move_speed = 16;
 rotate_speed = 22;
 
